@@ -1,0 +1,27 @@
+*{
+    font-family: "Audiowide", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: var(--cz-body-font-family);
+    font-size: var(--cz-body-font-size);
+    font-weight: var(--cz-body-font-weight);
+    line-height: var(--cz-body-line-height);
+    color: var(--cz-body-color);
+    text-align: var(--cz-body-text-align);
+    background-color: var(--cz-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(51, 60, 77, 0);
+}
+.text-muted {
+    --cz-text-opacity: 1;
+    color: #7d879c !important;
+    font-size: 14px;
+}
+.btn{
+    background-color: #f32d41;
+    border: none;
+}
